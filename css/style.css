@@ -115,7 +115,7 @@ h2 {
 
 /* PLANE */
 .content-planes {
-    min-height: 800px;
+    min-height: 910px;
     border: 1px solid lightgray;
     padding: 30px;
 }
@@ -168,6 +168,10 @@ hr {
 
 .highlights li {
     padding: 20px 0;
+}
+
+.highlights i {
+    filter: brightness(0) saturate(100%) invert(22%) sepia(83%) saturate(3946%) hue-rotate(212deg) brightness(103%) contrast(108%);
 }
 
 /* --- PARTNER AGENCY --- */
