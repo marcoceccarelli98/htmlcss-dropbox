@@ -16,7 +16,7 @@ a {
     text-decoration: none;
 }
 
-/* ----- HEADER ----- */
+/* ---------- HEADER ---------- */
 header {
     position: fixed;
     color: black;
@@ -29,4 +29,20 @@ header {
 
 .logo {}
 
-/* ----- MAIN ----- */
+/* ---------- MAIN ---------- */
+
+/* --- JUMBOTRON --- */
+
+.content-planes {
+    min-height: 800px;
+    border: 1px solid gray;
+    padding: 30px;
+}
+
+.plane {
+    border: 1px solid gray;
+}
+
+hr {
+    width: 20%;
+}
