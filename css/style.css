@@ -86,3 +86,9 @@ hr {
 .content-partner p {
     padding: 50px 0;
 }
+
+
+/* --- FAQ --- */
+.faq hr {
+    width: 100%;
+}
