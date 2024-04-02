@@ -23,6 +23,12 @@
     display: flex;
 }
 
+/* GAP */
+.gap-50px {
+    gap: 50px;
+}
+
+
 /* JUSTIFY */
 
 .center {
@@ -47,8 +53,8 @@
 }
 
 .col-33 {
-    margin: 20px 10px;
-    width: calc(100% / 3 - 20px);
+    margin: 20px 0px;
+    width: calc(100% / 3 - 35px);
 }
 
 .col-40 {
