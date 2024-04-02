@@ -1,5 +1,10 @@
 /* ---------------- LAYOUT ----------------- */
 .container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.container-big {
     max-width: 1200px;
     margin: auto;
 }

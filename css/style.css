@@ -16,6 +16,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    width: 100%;
+}
+
 /* ---------- HEADER ---------- */
 header {
     position: fixed;
@@ -27,7 +31,9 @@ header {
     box-shadow: 0 2px 1px gray;
 }
 
-.logo {}
+.logo {
+    width: 120px;
+}
 
 /* ---------- MAIN ---------- */
 
@@ -39,8 +45,14 @@ header {
     padding: 30px;
 }
 
+.content-custom-plane {
+    border: 1px solid gray;
+    padding: 30px;
+}
+
 .plane {
     border: 1px solid gray;
+    border-bottom: none;
 }
 
 hr {
