@@ -89,6 +89,24 @@ hr {
 
 
 /* --- FAQ --- */
+.faq {
+    margin: 150px 0;
+}
+
+.faq h2 {
+    font-size: 40px;
+    padding-bottom: 60px;
+}
+
+.faq span {
+    line-height: 100px;
+}
+
 .faq hr {
+    color: lightgrey;
     width: 100%;
+}
+
+.faq img {
+    width: 10px;
 }
