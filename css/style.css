@@ -110,3 +110,11 @@ hr {
 .faq img {
     width: 10px;
 }
+
+
+
+/* --- FOOTER --- */
+footer {
+    color: white;
+    background-color: black;
+}
