@@ -58,3 +58,31 @@ header {
 hr {
     width: 20%;
 }
+
+
+
+/* --- PARTNER AGENCY --- */
+
+.content-logo {
+    height: 300px;
+    background-color: red;
+    border: 1px solid;
+}
+
+.content-partner {
+    padding: 50px
+}
+
+.content-partner img {
+    width: 50%;
+}
+
+.content-partner hr {
+    margin-top: 50px;
+    width: 25%;
+    color: lightgray;
+}
+
+.content-partner p {
+    padding: 50px 0;
+}
