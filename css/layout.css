@@ -57,6 +57,10 @@
     width: calc(100% / 3 - 35px);
 }
 
+.col-33-business {
+    width: calc(100% / 3 - 65px);
+}
+
 .col-40 {
     width: 40%;
 }

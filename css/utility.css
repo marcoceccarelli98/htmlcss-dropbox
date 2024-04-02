@@ -5,6 +5,10 @@
     border-style: dashed;
 }
 
+.border {
+    border: 1px solid;
+}
+
 .justify-between {
     justify-content: space-between;
 }

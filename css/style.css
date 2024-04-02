@@ -183,6 +183,24 @@ hr {
     filter: brightness(0) saturate(100%) invert(22%) sepia(83%) saturate(3946%) hue-rotate(212deg) brightness(103%) contrast(108%);
 }
 
+/* --- DROPBOX BUSINESS --- */
+
+.content-business h3 {
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.content-business p {
+    font-size: 17px;
+}
+
+.col-100>a {
+    display: block;
+    padding: 50px 0px 150px;
+    color: blue;
+    text-decoration: underline;
+}
+
 /* --- PARTNER AGENCY --- */
 
 .partner-txt {
