@@ -171,12 +171,6 @@ hr {
     width: 100%;
 }
 
-#office {}
-
-/* .highlights p {
-    padding-bottom: 30px;
-} */
-
 .highlights ul {
     list-style: none;
 }
@@ -190,6 +184,24 @@ hr {
 }
 
 /* --- PARTNER AGENCY --- */
+
+.partner-txt {
+    padding: 50px;
+}
+
+.partner-txt h3 {
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.partner-txt p {
+    padding: 20px 0px 50px;
+}
+
+.partner-txt a {
+    padding: 15px;
+    border: 1px solid;
+}
 
 .content-logo {
     height: 300px;
