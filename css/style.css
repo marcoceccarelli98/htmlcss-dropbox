@@ -222,9 +222,19 @@ hr {
 }
 
 .content-logo {
+    display: flex;
     height: 300px;
-    background-color: red;
     border: 1px solid;
+    justify-content: center;
+}
+
+.content-logo img {
+    width: 50%;
+    filter: invert(100%);
+}
+
+.content-logo .bg-lightgreen2 {
+    margin: 10px 10px;
 }
 
 .content-partner {
