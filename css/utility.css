@@ -25,6 +25,10 @@
     align-items: center;
 }
 
+.vertical-middle {
+    vertical-align: middle;
+}
+
 /* POSITION */
 .left-0 {
     left: 0px;
@@ -81,6 +85,9 @@
 }
 
 /* MARGIN */
+.margin-5 {
+    margin: 5%;
+}
 
 .margin-10px {
     margin: 10px;
@@ -107,6 +114,9 @@
     width: 20%;
 }
 
+.width-50 {
+    width: 50%;
+}
 
 /* HEIGHT */
 
@@ -136,6 +146,10 @@
 /* BACKGROUNDS */
 .bg-red {
     background-color: red;
+}
+
+.bg-yellow {
+    background-color: #FFD830;
 }
 
 .bg-orange {
@@ -188,4 +202,16 @@
 
 .bg-lightgreen2 {
     background-color: #A2D39B;
+}
+
+.bg-badwine {
+    background-color: #61082B;
+}
+
+.bg-florida {
+    background-color: #0093CE;
+}
+
+.bg-hearst {
+    background-color: #B4D0E7;
 }

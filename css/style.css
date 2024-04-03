@@ -115,7 +115,7 @@ h2 {
 
 /* PLANE */
 .content-planes {
-    min-height: 910px;
+    min-height: 930px;
     border: 1px solid lightgray;
     padding: 30px;
 }
@@ -231,6 +231,7 @@ hr {
     height: calc(100vw/3);
     display: flex;
     flex-wrap: wrap;
+    vertical-align: middle;
 }
 
 .square-box-small {
@@ -252,22 +253,44 @@ hr {
     filter: invert(100%);
 }
 
-.content-partner {
-    padding: 50px
+#florida {
+    height: 10%;
+    margin: 45% 0;
 }
 
-.content-partner img {
-    width: 50%;
+.content-square {
+    padding: 10%;
 }
 
-.content-partner hr {
+.content-square img {
+    width: 70%;
+}
+
+.content-square hr {
     margin-top: 50px;
     width: 25%;
     color: lightgray;
 }
 
-.content-partner p {
-    padding: 50px 0;
+.content-square p {
+    padding: 30px 0;
+}
+
+.content {
+    padding: 150px 0;
+}
+
+.content>h4 {
+    vertical-align: middle;
+    font-size: 40px;
+    color: #61082B;
+}
+
+.content>a {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: white;
+    padding: 15px 50px;
 }
 
 
@@ -281,20 +304,29 @@ hr {
     padding-bottom: 60px;
 }
 
-.faq span {
-    line-height: 100px;
-}
-
 .faq hr {
     color: lightgrey;
     width: 100%;
 }
 
-.faq img {
-    width: 10px;
+.faq i {
+    padding-right: 50px;
 }
 
+.faq li {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+}
 
+.faq li:first-child {
+    border-top: 1px solid;
+}
+
+li i {
+    display: inline-block;
+}
 
 /* --- FOOTER --- */
 footer {
