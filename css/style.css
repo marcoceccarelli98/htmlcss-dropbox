@@ -24,7 +24,7 @@ body {
 }
 
 main {
-    padding-top: 80px;
+    padding-top: 70px;
 }
 
 a {
@@ -88,12 +88,13 @@ h1 {
 }
 
 .jumbo-txt i {
+    padding-bottom: 20px;
     font-size: 60px;
 }
 
 .jumbo-txt a+p {
     padding-top: 40px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 
 /* --- BUSINESS PLANES --- */
