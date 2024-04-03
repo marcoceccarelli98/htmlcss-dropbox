@@ -221,20 +221,35 @@ hr {
     border: 1px solid;
 }
 
-.content-logo {
+.square-section {
     display: flex;
-    height: 300px;
-    border: 1px solid;
+}
+
+.square-box {
+    display: flex;
+    width: calc(100%/3);
+    height: calc(100vw/3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square-box-small {
+    height: 50%;
+    width: 50%;
+    display: flex;
     justify-content: center;
 }
 
-.content-logo img {
-    width: 50%;
-    filter: invert(100%);
+.square-box-padding {
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
 }
 
-.content-logo .bg-lightgreen2 {
-    margin: 10px 10px;
+.square-box-small img {
+    width: 50%;
+    filter: invert(100%);
 }
 
 .content-partner {
