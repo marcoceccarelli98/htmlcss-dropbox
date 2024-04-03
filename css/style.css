@@ -76,6 +76,11 @@ h1 {
     padding: 80px 0;
 }
 
+.jumbo {
+    position: absolute;
+    width: 75%;
+}
+
 .jumbo-txt p {
     line-height: 25px;
     word-spacing: 5px;
@@ -97,10 +102,6 @@ h2 {
     padding-top: 50px;
     padding-bottom: 20px;
     font-size: 40px;
-}
-
-.billing-choise {
-    padding: 40px 0;
 }
 
 .billing-choise label {
@@ -199,6 +200,15 @@ hr {
     padding: 50px 0px 150px;
     color: blue;
     text-decoration: underline;
+}
+
+.col-100>h2 {
+    padding-top: 150px;
+}
+
+.col-100>h3 {
+    padding-top: 150px;
+    font-size: 40px;
 }
 
 /* --- PARTNER AGENCY --- */
@@ -304,11 +314,6 @@ hr {
     padding-bottom: 60px;
 }
 
-.faq hr {
-    color: lightgrey;
-    width: 100%;
-}
-
 .faq i {
     padding-right: 50px;
 }
@@ -330,6 +335,32 @@ li i {
 
 /* --- FOOTER --- */
 footer {
+    padding-top: 100px;
     color: white;
     background-color: black;
+}
+
+footer h4 {
+    font-size: 25px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    padding: 10px 0;
+}
+
+footer li:first-child {
+    padding-top: 40px;
+}
+
+footer hr {
+    margin-top: 90px;
+    width: 10%;
+}
+
+.language {
+    padding: 20px 0px 50px;
 }
