@@ -47,6 +47,15 @@ img {
     background-color: rgb(0, 97, 255, 0.5);
 }
 
+.btn-plane {
+    padding: 10px 20px;
+    color: white;
+    background-color: #0061FF;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
 /* ---------- HEADER ---------- */
 header {
     position: fixed;
