@@ -42,6 +42,11 @@ img {
     background-color: #0061FF;
 }
 
+.btn-blue:hover {
+    color: white;
+    background-color: rgb(0, 97, 255, 0.5);
+}
+
 /* ---------- HEADER ---------- */
 header {
     position: fixed;
@@ -232,6 +237,11 @@ hr {
     border: 1px solid;
 }
 
+.partner-txt a:hover {
+    color: grey;
+    border: 1px solid grey;
+}
+
 .square-section {
     display: flex;
 }
@@ -304,6 +314,9 @@ hr {
     padding: 15px 50px;
 }
 
+.content>a:hover {
+    background-color: rgb(255, 255, 255, 0.5);
+}
 
 /* --- FAQ --- */
 .faq {
@@ -316,7 +329,7 @@ hr {
 }
 
 .faq i {
-    padding-right: 50px;
+    padding: 0 50px;
 }
 
 .faq li {
@@ -332,6 +345,10 @@ hr {
 
 li i {
     display: inline-block;
+}
+
+.fa-angle-down:hover {
+    transform: rotate(180deg);
 }
 
 /* --- FOOTER --- */
@@ -364,4 +381,8 @@ footer hr {
 
 .language {
     padding: 20px 0px 50px;
+}
+
+.fa-caret-up:hover {
+    transform: rotate(180deg);
 }
